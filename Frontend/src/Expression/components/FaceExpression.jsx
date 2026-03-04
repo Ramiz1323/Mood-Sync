@@ -65,7 +65,7 @@ const FaceExpression = () => {
         style={{
           padding: '12px 24px',
           fontSize: '18px',
-          backgroundColor: '#E1306C', // Instagram-like pink/red
+          backgroundColor: '#E1306C',
           color: 'white',
           border: 'none',
           borderRadius: '8px',
