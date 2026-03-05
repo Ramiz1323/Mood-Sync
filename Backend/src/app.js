@@ -9,9 +9,11 @@ app.use(cors({
 }));
 
 const authRouter = require('./routes/auth.routes.js');
+const songRouter = require('./routes/song.routes.js');
 
 app.use(express.json());
 app.use(cookieParser());
 app.use('/api/auth', authRouter);
+app.use('/api/songs', songRouter);
 
 module.exports = app;
