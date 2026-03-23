@@ -26,10 +26,6 @@ Instead of a simple "one-size-fits-all" model, this project maps specific **Medi
 
 
 
-### Challenges Overcome
-* **Asynchronous AI Loading:** Implemented a robust "Initializing" state to ensure the MediaPipe WASM files and `.task` models are fully loaded before user interaction.
-* **ROI Optimization:** Solved the "ROI width/height must be > 0" error by ensuring the AI only processes frames once the webcam stream is fully active (`readyState >= 2`).
-
 ## 📥 Installation & Setup
 1.  **Clone the Repository:**
     ```bash
